@@ -1,0 +1,157 @@
+/* global css---------- */
+body h1,h2,h3,h4,h5,h6,p,a{
+    font-family: 'Glory', sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+
+.title-btn::before{
+    content: "";
+    height: 40px;
+    width: 8px;
+    background: red;
+    color: red;
+    position: absolute;
+    top: 32px;
+    left: -20px;
+}
+
+.header-section{
+    position: relative;
+}
+
+.overlay-title{
+    position: absolute;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 4rem;
+    top: 40%;
+    left: 20%;
+    opacity: .2;
+    z-index: 0;
+}
+
+
+
+/* -----main css */
+.main-logo a{
+    display:inline-block ;
+    color: rgb(20, 223, 179) !important;
+    font-size: 2.6rem !important;
+    font-weight: 700 !important;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+
+.navbar-section ul li a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 10px 10px;
+    color: rgb(17, 14, 14);
+    transition: .5s;
+}
+
+.navbar-section ul li a:hover{
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+
+.latest-work-section{
+    background: #f2f2f2f2;
+}
+
+.picture-content{
+    margin: 20px;
+    transition: .5s;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(54, 50, 50,.5);
+}
+
+.picture-content:hover{
+    transform: scale(0.98);
+}
+
+.picture-content a{
+    text-decoration: none;
+    border: none;
+}
+
+.picture-content p{
+    color: orangered;
+    font-size: 1.5rem;
+    padding-top: 20px;
+    font-weight: 600;
+}
+
+.picture-item{
+    margin: 10px;
+}
+
+
+
+
+
+
+/* -----contaxt section */
+.contact-section{
+    position: relative;
+    background: rgb(31, 29, 29);
+ }
+ 
+ .social-media i{
+     font-size: 25px;
+     margin: 8px;
+ }
+ 
+ 
+ 
+ .social-media :nth-child(2){
+     color: #00acee;
+ }
+ 
+ .social-media :nth-child(3){
+     color: #0077b5;
+ }
+ 
+ .social-media :nth-child(4){
+     color: red;
+ }
+ 
+ .social-media :nth-child(5  ){
+     color: white;
+ }
+ 
+ .social-media :nth-child(6){
+     color:#931ada;
+ }
+ 
+ .social-media :nth-child(7){
+     color: #fc4f08;
+ }
+ 
+ .social-media-item{
+     align-items: center;
+ }
+ 
+ .social-media-item i{
+     height: 50px;
+     width: 50px;
+     line-height: 50px;
+     border-radius: 50%;
+     text-align: center;
+     border: 1px solid white;
+     font-size: 1rem;
+     margin: 10px;
+ }
+ 
+ .social-media-item span{
+     font-size: .8rem;
+ }
+ 
+ 

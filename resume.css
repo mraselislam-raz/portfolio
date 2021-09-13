@@ -1,0 +1,112 @@
+/* global css---------- */
+body h1,h2,h3,h4,h5,h6,p,a{
+    font-family: 'Glory', sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+
+.title-btn::before{
+    content: "";
+    height: 40px;
+    width: 8px;
+    background: red;
+    color: red;
+    position: absolute;
+    top: 32px;
+    left: -20px;
+}
+
+.header-section{
+    position: relative;
+}
+
+.overlay-title{
+    position: absolute;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 4rem;
+    top: 40%;
+    left: 20%;
+    opacity: .2;
+    z-index: 0;
+}
+
+
+
+/* -----main css */
+.main-logo a{
+    display:inline-block ;
+    color: rgb(20, 223, 179) !important;
+    font-size: 2.6rem !important;
+    font-weight: 700 !important;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+
+.navbar-section ul li a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 10px 10px;
+    color: rgb(17, 14, 14);
+    transition: .5s;
+}
+
+.navbar-section ul li a:hover{
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.main-header-section{
+    background: linear-gradient(to left,gray,white);
+}
+
+.main-header-section img{
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgb(65, 65, 65);
+}
+
+.header-info p{
+    line-height: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(7, 102, 78);
+}
+.skills-progress strong{
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+
+
+
+/* -----contaxt section */
+.contact-section{
+    position: relative;
+    background: rgb(31, 29, 29);
+ }
+ 
+ .social-media-item{
+     align-items: center;
+ }
+ 
+ .social-media-item i{
+     height: 50px;
+     width: 50px;
+     line-height: 50px;
+     border-radius: 50%;
+     text-align: center;
+     border: 1px solid white;
+     font-size: 1rem;
+     margin: 10px;
+ }
+ 
+ .social-media-item span{
+     font-size: .8rem;
+ }
+ 
+ 
